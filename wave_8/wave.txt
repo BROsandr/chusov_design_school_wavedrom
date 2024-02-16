@@ -1,0 +1,13 @@
+{signal: [
+  {name: 'clk'    , wave: 'p..............'                             },
+  {name: 'aresetn', wave: '01.............'                             },
+  {name: 'araddr' , wave: 'x.3456x........', data: ['0', '4', '8', '16']},
+  {name: 'arid'   , wave: 'x.7.8.x........', data: ['5', '7'           ]},
+  {name: 'arlen'  , wave: 'x.3456x........', data: ['0', '0', '0', '0' ]},
+  {name: 'arvalid', wave: '0.1...0........'                             },
+  {name: 'arready', wave: '0.1...0........'                             },
+  {name: 'rdata'  , wave: 'x....5634x.....', data: ['C', 'D', 'A', 'B' ]},
+  {name: 'rid'    , wave: 'x....7.8.x.....', data: ['7', '5'           ]},
+  {name: 'rvalid' , wave: '0....1...0.....'                             },
+  {name: 'rready' , wave: '0....1...0.....'                             }
+]}
