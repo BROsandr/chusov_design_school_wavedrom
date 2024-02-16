@@ -1,11 +1,11 @@
 {signal: [
   {name: 'PCLK'   , wave: 'p...'                      },
-  {name: 'PADDR'  , wave: '23.2', data: ['', 'Addr 1']},
-  {name: 'PWRITE' , wave: 'x0.x'                      },
+  {name: 'PADDR'  , wave: 'x3.x', data: ['Addr 1']    },
+  {name: 'PWRITE' , wave: '0...'                      },
   {name: 'PSEL'   , wave: '01.0'                      },
-  {name: 'PENABLE', wave: 'x01x'                      },
-  {name: 'PRDATA' , wave: '2.32', data: ['', 'Data 1']},
-  {name: 'PREADY' , wave: 'x.1x'                      }],
+  {name: 'PENABLE', wave: '0.10'                      },
+  {name: 'PRDATA' , wave: 'x23x', data: ['', 'Data 1']},
+  {name: 'PREADY' , wave: '0.10'                     }],
   config:{hscale:2},
   head  :{tick  :0},
 }
