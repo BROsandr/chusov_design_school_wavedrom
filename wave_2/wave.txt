@@ -1,0 +1,11 @@
+{signal: [
+  {name: 'clk'    , wave: 'p...............'                            },
+  {name: 'aresetn', wave: '01..............'                            },
+  {name: 'awaddr' , wave: 'x.3..x..........', data: ['8'         ]      },
+  {name: 'awlen'  , wave: 'x.3..x..........', data: ['3(4 words)']      },
+  {name: 'awvalid', wave: '0.1..0..........'                            },
+  {name: 'awready', wave: '0...10..........'                            },
+  {name: 'wdata'  , wave: 'x......3.4.5.6x.', data: ['A', 'B', 'C', 'D']},
+  {name: 'wvalid' , wave: '0......1........'                            },
+  {name: 'wready' , wave: '0.......10101.0.'                            },
+]}
