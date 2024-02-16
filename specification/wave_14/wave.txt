@@ -4,7 +4,7 @@
   {name: 'PWRITE' , wave: '0.....'                  },
   {name: 'PSEL'   , wave: '01...0'                  },
   {name: 'PENABLE', wave: '0.1..0'                  },
-  {name: 'PRDATA' , wave: 'x2...x'},
+  {name: 'PRDATA' , wave: 'x....x'                  },
   {name: 'PREADY' , wave: '0...10'                  },
   {name: 'PSLVERR', wave: '0...10'                  },],
   config:{hscale:2},

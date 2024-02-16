@@ -4,7 +4,7 @@
   {name: 'PWRITE' , wave: '0...'                      },
   {name: 'PSEL'   , wave: '01.0'                      },
   {name: 'PENABLE', wave: '0.10'                      },
-  {name: 'PRDATA' , wave: 'x23x', data: ['', 'Data 1']},
+  {name: 'PRDATA' , wave: 'x.3x', data: ['Data 1']    },
   {name: 'PREADY' , wave: '0.10'                     }],
   config:{hscale:2},
   head  :{tick  :0},
