@@ -7,7 +7,7 @@
   {name: 'arvalid', wave: '0.1...0........'                             },
   {name: 'arready', wave: '0.1...0........'                             },
   {name: 'rdata'  , wave: 'x...3456x......', data: ['A', 'B', 'C', 'D' ]},
-  {name: 'rid'    , wave: 'xxx.7...x......', data: ['0'                ]},
+  {name: 'rid'    , wave: 'x...7...x......', data: ['0'                ]},
   {name: 'rvalid' , wave: '0...1...0......'                             },
   {name: 'rready' , wave: '0...1...0......'                             }
 ]}
