@@ -1,0 +1,11 @@
+{signal: [
+  {name: 'PCLK'   , wave: 'p.....'                  },
+  {name: 'PADDR'  , wave: 'x3...x', data: ['Addr 1']},
+  {name: 'PWRITE' , wave: 'x0...x'                  },
+  {name: 'PSEL'   , wave: '01...0'                  },
+  {name: 'PENABLE', wave: 'x01..x'                  },
+  {name: 'PRDATA' , wave: 'x...3x', data: ['Data 1']},
+  {name: 'PREADY' , wave: 'x.0.1x'                  }],
+  config:{hscale:2},
+  head  :{tick  :0},
+}
